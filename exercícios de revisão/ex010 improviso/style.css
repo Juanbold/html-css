@@ -1,0 +1,104 @@
+@font-face {
+    font-family: idroid;
+    src: url('pacote-projeto-d010\ \(2\)/fontes/idroid.otf');
+    format: ('opentype');
+}
+
+     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+     .bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+ body{ 
+    background-color: #84E1AD;
+
+
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+header {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1C633B;
+    background-image: linear-gradient(to top, #1C633B, #32905C, #2DA060, #35BF73);
+
+
+margin:  -8px -8px 10px;
+padding: 10px;
+text-align: center;
+color: white;
+}
+header>h1 {
+   font-family:"Bebas Neue";
+   font-weight: lighter;
+}
+header>menu {
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin: -3px -22px -14px;
+    padding: 10px;
+    text-decoration: none;
+}
+header>menu>a {
+    color: white;
+    text-decoration: none;
+    
+    padding: 10px 10px 10px ;
+}
+main {
+    min-width: 400;
+    max-width: 800;
+
+    border: 10px solid white;
+    background-color: white;
+margin: -9px 125px auto;
+    padding: 10px;
+}
+main>section> h1, h2{
+    font-family: 'idroid';
+    color: #5D8C72;
+}
+main>section>h2{
+    background-color: #DEF4E7;
+}
+.basico {
+    font-weight: bold;
+    color: #2DA060;
+    text-decoration: none;
+}
+div{
+
+    margin: 2px -20px 10px -20px;
+    padding: 10px 10px 10px 10px;
+    border: 10px solid;
+        background-color: #1C633B;
+;
+    background-color: #1C633B;
+}
+article{
+    background-color: #C5EBD6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px 10px 10px;
+}
+article>h3{
+    color: white;
+    padding: 10px 10px 10px;
+    margin:-9px -10px -3px -9px ;
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+}
+footer {
+    background-color: #1C633B;
+    margin: 8px -12px -9px -11px;
+    text-align: center;
+    color: white;
+}
+
+
