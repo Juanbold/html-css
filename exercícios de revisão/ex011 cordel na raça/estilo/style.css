@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'big';
+    src: url(../fontes/PassionOne-bold.ttf)
+    ; format: ('truetype');
+    font-weight: normal
+}
+@font-face {
+    font-family: 'handwritting';
+    src: url(../fontes/Sriracha-Regular.ttf); format: ('truetype');
+    font-weight: normal;
+}
+:root {
+    --fonte1: verdana, arial, helvetica, sans-serif;
+    --fonte2: 'handwritting', arial, helvetica, sans-serif;
+    --fonte3: 'big', arial, helvetica, sans-serif ;
+}
+body{
+     min-height: 100vh;
+   
+    background: white url(../imagens/background001.jpg) right center  no-repeat scroll 
+    ;
+    background-size: cover3; 
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+header{
+     background-color: black;
+     text-align: center;
+     color: rgb(255, 255, 255);
+    
+        
+}
+
+h1 {
+    margin: auto;
+   font-size: 10vh;
+
+    
+    padding-top: 60px;
+
+    margin-top: 0px;
+    margin-bottom: -11px;
+ 
+    color: white;
+    font-family: var(--fonte3);
+   
+}
+p {
+    font-family: var(--fonte1);
+    margin-bottom: 2px;
+     padding-bottom: 50px;
+    
+}
+p>a {
+    font-weight: bold;
+    color: white;
+}
+.normal{
+        background-color: white;
+}
+div p {
+   
+    width: 400px;
+     padding-top: 100px;
+     padding-left: 30px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: var(--fonte2);
+    font-size: 4vh;
+
+   
+}
+.natura{
+    
+
+    width: 500px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+
+}
+.natura>p {
+     padding: 1px 1px 1px 1px;
+}
+footer {
+    margin-top: 100px;
+    background-color: black;
+
+}
+footer>p {
+    color: white;
+    margin-bottom: -10px;
+    text-align: center;
+    padding: 10px;
+
+}
