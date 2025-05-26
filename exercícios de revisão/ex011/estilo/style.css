@@ -57,7 +57,10 @@ section.imagem {
     color: white;
 
 }
+    /*
+         não pude usar o > pois ela esta aninhada no pre, alem da section, se eu quisesse usar o > tinha que usar assim section.imagem > pre  > p
 
+     */
 section.imagem  p {
     width: 400px;
     background-color: rgb(0, 0, 0, 0.253);
