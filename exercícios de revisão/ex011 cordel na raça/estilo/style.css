@@ -18,9 +18,9 @@
 body{
      min-height: 100vh;
    
-    background: white url(../imagens/background001.jpg) right center  no-repeat scroll 
+    background: white url(../imagens/background001.jpg) top center  no-repeat scroll 
     ;
-    background-size: cover3; 
+    background-size: cover; 
   
     margin-left: 0px;
     margin-right: 0px;
@@ -60,6 +60,7 @@ p>a {
 }
 .normal{
         background-color: white;
+        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.178);
 }
 div p {
    
