@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest"Estado></label>
+            <select name="est" id="iest">
+               <label for="estado">Escolha seu estado:</label>
+  <option value="" >--- Escolha ---</option>
+
+  <optgroup label="Região Norte">
+    <option value="AC">Acre</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="PA">Pará</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="TO">Tocantins</option>
+  </optgroup>
+
+  <optgroup label="Região Nordeste">
+    <option value="AL">Alagoas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="MA">Maranhão</option>
+    <option value="PB">Paraíba</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="SE">Sergipe</option>
+  </optgroup>
+
+  <optgroup label="Região Centro-Oeste">
+    <option value="GO">Goiás</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+  </optgroup>
+
+  <optgroup label="Região Sudeste">
+    <option value="ES">Espírito Santo</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="SP" selected>São Paulo</option>
+  </optgroup>
+
+  <optgroup label="Região Sul">
+    <option value="PR">Paraná</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="SC">Santa Catarina</option>
+  </optgroup>
+
+
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof" placeholder="Otorrinolaringologista">
+            <datalist id="lstprof"  >
+                <option value="">Selecione uma profissão</option>
+<option value="Administrador">Administrador</option>
+<option value="Advogado">Advogado</option>
+<option value="Agrônomo">Agrônomo</option>
+<option value="Alfaiate">Alfaiate</option>
+<option value="Analista de Sistemas">Analista de Sistemas</option>
+<option value="Antropólogo">Antropólogo</option>
+<option value="Arqueólogo">Arqueólogo</option>
+<option value="Arquiteto">Arquiteto</option>
+<option value="Artista Plástico">Artista Plástico</option>
+<option value="Astrônomo">Astrônomo</option>
+<option value="Ator/Atriz">Ator/Atriz</option>
+<option value="Auditor Fiscal">Auditor Fiscal</option>
+<option value="Biólogo">Biólogo</option>
+<option value="Biomédico">Biomédico</option>
+<option value="Cabeleireiro">Cabeleireiro</option>
+<option value="Caminhoneiro">Caminhoneiro</option>
+<option value="Cantor">Cantor</option>
+<option value="Cardiologista">Cardiologista</option>
+<option value="Carpinteiro">Carpinteiro</option>
+<option value="Chef de Cozinha">Chef de Cozinha</option>
+<option value="Cirurgião Geral">Cirurgião Geral</option>
+<option value="Cirurgião Plástico">Cirurgião Plástico</option>
+<option value="Clínico Geral">Clínico Geral</option>
+<option value="Comerciante">Comerciante</option>
+<option value="Contador">Contador</option>
+<option value="Corretor de Imóveis">Corretor de Imóveis</option>
+<option value="Costureira">Costureira</option>
+<option value="Cozinheiro">Cozinheiro</option>
+<option value="Dentista">Dentista</option>
+<option value="Desenvolvedor de Jogos">Desenvolvedor de Jogos</option>
+<option value="Desenvolvedor Web">Desenvolvedor Web</option>
+<option value="Designer de Interiores">Designer de Interiores</option>
+<option value="Designer Gráfico">Designer Gráfico</option>
+<option value="Economista">Economista</option>
+<option value="Eletricista">Eletricista</option>
+<option value="Empreendedor">Empreendedor</option>
+<option value="Encanador">Encanador</option>
+<option value="Enfermeiro">Enfermeiro</option>
+<option value="Engenheiro Agrônomo">Engenheiro Agrônomo</option>
+<option value="Engenheiro Civil">Engenheiro Civil</option>
+<option value="Engenheiro de Produção">Engenheiro de Produção</option>
+<option value="Engenheiro de Software">Engenheiro de Software</option>
+<option value="Engenheiro Elétrico">Engenheiro Elétrico</option>
+<option value="Engenheiro Mecânico">Engenheiro Mecânico</option>
+<option value="Escritor">Escritor</option>
+<option value="Esteticista">Esteticista</option>
+<option value="Estudante">Estudante</option>
+<option value="Farmacêutico">Farmacêutico</option>
+<option value="Faxineiro">Faxineiro</option>
+<option value="Fisioterapeuta">Fisioterapeuta</option>
+<option value="Fonoaudiólogo">Fonoaudiólogo</option>
+<option value="Fotógrafo">Fotógrafo</option>
+<option value="Gamer Profissional">Gamer Profissional</option>
+<option value="Gari">Gari</option>
+<option value="Garçom">Garçom</option>
+<option value="Ginecologista">Ginecologista</option>
+<option value="Guarda Municipal">Guarda Municipal</option>
+<option value="Historiador">Historiador</option>
+<option value="Infectologista">Infectologista</option>
+<option value="Influencer Digital">Influencer Digital</option>
+<option value="Instrutor de Autoescola">Instrutor de Autoescola</option>
+<option value="Instalador de Internet">Instalador de Internet</option>
+<option value="Jardineiro">Jardineiro</option>
+<option value="Jornalista">Jornalista</option>
+<option value="Juiz">Juiz</option>
+<option value="Lavrador">Lavrador</option>
+<option value="Locutor">Locutor</option>
+<option value="Mágico">Mágico</option>
+<option value="Marceneiro">Marceneiro</option>
+<option value="Mecânico">Mecânico</option>
+<option value="Médico de Família">Médico de Família</option>
+<option value="Médico do Trabalho">Médico do Trabalho</option>
+<option value="Médico Veterinário">Médico Veterinário</option>
+<option value="Militar">Militar</option>
+<option value="Modelo">Modelo</option>
+<option value="Motorista de Aplicativo">Motorista de Aplicativo</option>
+<option value="Motorista de Ônibus">Motorista de Ônibus</option>
+<option value="Musicista">Musicista</option>
+<option value="Neurologista">Neurologista</option>
+<option value="Nutricionista">Nutricionista</option>
+<option value="Obstetra">Obstetra</option>
+<option value="Oceanógrafo">Oceanógrafo</option>
+<option value="Oncologista">Oncologista</option>
+<option value="Ortopedista">Ortopedista</option>
+<option value="Otorrinolaringologista">Otorrinolaringologista</option>
+<option value="Padeiro">Padeiro</option>
+<option value="Paleontólogo">Paleontólogo</option>
+<option value="Pediatra">Pediatra</option>
+<option value="Pedreiro">Pedreiro</option>
+<option value="Perito Criminal">Perito Criminal</option>
+<option value="Personal Trainer">Personal Trainer</option>
+<option value="Pescador">Pescador</option>
+<option value="Pintor">Pintor</option>
+<option value="Policial Civil">Policial Civil</option>
+<option value="Policial Militar">Policial Militar</option>
+<option value="Porteiro">Porteiro</option>
+<option value="Professor de Educação Física">Professor de Educação Física</option>
+<option value="Professor Universitário">Professor Universitário</option>
+<option value="Programador">Programador</option>
+<option value="Psicólogo">Psicólogo</option>
+<option value="Psiquiatra">Psiquiatra</option>
+<option value="Publicitário">Publicitário</option>
+<option value="Químico">Químico</option>
+<option value="Radiologista">Radiologista</option>
+<option value="Recepcionista">Recepcionista</option>
+<option value="Redator">Redator</option>
+<option value="Roteirista">Roteirista</option>
+<option value="Secretária">Secretária</option>
+<option value="Segurança">Segurança</option>
+<option value="Serralheiro">Serralheiro</option>
+<option value="Soldador">Soldador</option>
+<option value="Sociólogo">Sociólogo</option>
+<option value="Técnico de Enfermagem">Técnico de Enfermagem</option>
+<option value="Técnico em Informática">Técnico em Informática</option>
+<option value="Técnico em Segurança do Trabalho">Técnico em Segurança do Trabalho</option>
+<option value="Terapeuta Ocupacional">Terapeuta Ocupacional</option>
+<option value="Tradutor">Tradutor</option>
+<option value="UX Designer">UX Designer</option>
+<option value="Vendedor">Vendedor</option>
+<option value="Vigilante">Vigilante</option>
+<option value="Web Designer">Web Designer</option>
+<option value="Youtuber">Youtuber</option>
+
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Envie sua mensagem..."></textarea>
+
+        </p>
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
